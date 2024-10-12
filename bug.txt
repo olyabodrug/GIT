@@ -1,5 +1,5 @@
 1. Enviroment 
-2. [ASeverity [3~ [B[D[D[D[D[D[D[D[D[D[DEnviroment [D[D[D[D[Dnment
+2. Severity
 3. Title 
 4. Steps 
 5. Expected Result 
