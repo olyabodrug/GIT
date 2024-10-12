@@ -1,0 +1,145 @@
+GIT Homework 1
+
+JSON
+ 4. Создать внешний репозиторий c названием JSON - https://github.com/olyabodrug/JSON.git
+ 5. Клонировать репозиторий JSON на локальный компьютер - git clone https://github.com/olyabodrug/JSON.git
+ 6. Внутри локального JSON создать файл “new.json” - cd JSON;  cat > new.json
+ 7. Добавить файл под гит - git add new.json
+ 8. Закоммитить файл - git commit -m "New_file"
+ 9. Отправить файл на внешний GitHub репозиторий -  git push
+ 10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON 
+- vim new.json -> i
+{
+        "Name": "Olya",
+        "Second Name": "Bodrug",
+        "Age": 22,
+        "Pets": 0,
+        "Salary": "so that you always have enough for a new dress"
+}
+
+Esc -> :wq
+
+ 11. Отправить изменения на внешний репозиторий
+- git add new.json
+- git commit -m "New info"
+- git push
+
+ 12. Создать файл preferences.json - touch preferences.json
+ 13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
+- vim preferences -> i
+- {
+        "Film": "I don't like films",
+        "Serials": "knock on my door",
+        "Favourit food": "Any patato food",
+        "Favourit season": "Spring",
+        "Country for travel": "Australia"
+}
+
+Esc -> :wq
+
+ 14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+- vim skills.json -> i
+
+{
+        "Instruments": "Terminal, Git, Postman, SQL, Jmeter, Mobile testing, Webservises, Swagger, Python",
+        "Theory": "Scrum, Test design techniques, client-server architecture, Database"
+}
+
+Esc -> :wq
+
+ 15. Отправить сразу 2 файла на внешний репозиторий 
+- git add sklls.json  preferences.json
+- git commit -m "New info"
+- git push
+
+ 16. На веб интерфейсе создать файл bug_report.json.
+- add file 
+- creat new file 
+- name of the file 
+
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе - commit changes
+ 18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+ 19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+{
+  "Severity": "Not a bug",
+  "Title": "The menu title [Professional Traders] cannot be clicked",
+  "Steps": "STR: 1. Navigate to capital.com 2. Select  one of the licenses FCA, CYSEC, ASIC 3. Select EN language  4. Click on the  menu section [Ways to trade] 5. Click on the menu title [Professional Traders]",
+  "Expected Result": "The menu title [Professional Traders]  click is available",
+  "Actual Result": "The menu title [Professional Traders] cannot be clicked",
+  "License": "FCA, CYSEC, ASIC",
+  "Role (unregistered, unauthorized, authorized, All)": "All",
+  "Telegram @nick Bug started": "@Olga_username1"
+}
+ 20. Синхронизировать внешний и локальный репозиторий JSON - git pull
+
+XML
+ 21. Создать внешний репозиторий c названием XML - https://github.com/olyabodrug/XML.git
+ 22. Клонировать репозиторий XML на локальный компьютер 
+- cd ..
+- git clone https://github.com/olyabodrug/XML.git
+
+ 23. Внутри локального XML создать файл “new.xml” - touch new.xml
+ 24. Добавить файл под гит - git add new.xml
+ 25. Закоммитить файл -  git commit -m "New file"
+ 26. Отправить файл на внешний GitHub репозиторий -  git push
+ 27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML
+- vim new.xml -> i
+<?xml version="1.0" encoding="UTF-8"?>
+<Name> Olya </Name>
+<Age> 22 </Age>
+<Pets> 0 </Pets>
+<Salary> So that you always have enough for a new dress </Salary>
+
+Esc -> :wq
+
+ 28. Отправить изменения на внешний репозиторий
+- git add new.xml
+- git commit -m "Info"
+- git push
+
+ 29. Создать файл preferences.xml - touch preferences.xmlvi
+ 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+- vim eferences.xml -> i
+<?xml version="1.0" encoding="UTF-8"?>
+<Film> I don't like films </Film>
+<Serials> knock on my door </Serials>
+<Favourit_food> Any patato food </Favourit_food>
+<Favourit_season> Spring </Favourit_season>
+<Country_for_travel> Australia </Country_for_travel>
+
+Esc -> :wq
+
+ 31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML 
+- touch sklls.xml
+- vim sklls.xml -> i
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Instruments> Terminal, Git, Postman, SQL, Jmeter, Mobile testing, Webservises, Swagger, Python </Instruments>
+<Theory> Scrum, Test design techniques, client-server architecture, Database </T
+heory>
+
+Esc -> :wq
+
+ 32. Сделать коммит в одну строку - git add preferences.xml sklls.xml | git commit -am "Update info"
+ 33. Отправить сразу 2 файла на внешний репозиторий -  git push
+ 34. На веб интерфейсе создать файл bug_report.xml 
+- add file 
+- creat new file 
+- name of the file 
+
+ 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе - commit changes
+ 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Severity> Not a bug </Severity>
+<Title> The menu title [Professional Traders] cannot be clicked </Title>
+<Steps> 1. Navigate to capital.com 2. Select  one of the licenses FCA, CYSEC, ASIC 3. Select EN language  4. Click on the  menu section [Ways to trade] 5. Click on the menu title [Professional Traders] </Steps>
+<Expected_Result> The menu title [Professional Traders]  click is available </Expected_Result>
+<Actual_Result> The menu title [Professional Traders] cannot be clicked </Actual_Result>
+<License> FCA, CYSEC, ASIC </License>
+<Role (unregistered, unauthorized, authorized, All)> All </Role (unregistered, unauthorized, authorized, All)>
+<Telegram @nick Bug started> @Olga_username1 </Telegram @nick Bug started>
+
+ 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе - commit chages
+ 38. Синхронизировать внешний и локальный репозиторий XML - git pull
